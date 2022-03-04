@@ -12,9 +12,30 @@ body, html, div, img {
     background: rgba(196, 40, 40, 0.61)
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 0.7vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #5748489d;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(88, 88, 88);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 56, 56);
+  }
+
 img {
     height: 35%;
     width: 35%;
+    border-radius: 10%;
 }
 
 footer{
